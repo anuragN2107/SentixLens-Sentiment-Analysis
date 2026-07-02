@@ -1,0 +1,20 @@
+name: Sync GitHub to Hugging Face Hub
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  sync-to-hub:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Push to Hugging Face Space Remote
+        run: |
+          git remote add hf https://anuragN2107:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/anuragN2107/sentixlens-dashboard
+          git push --force hf main
