@@ -1,2 +1,13 @@
-# SentixLens-Sentiment-Analysis
-An advanced Sentiment Analysis system built with TensorFlow and Hugging Face Transformers. Features binary review classification using a custom Bidirectional LSTM network alongside DeBERTa-v3 capabilities for multi-lingual star grading, emotion detection, and aspect-based targeted sentiment evaluation.
+---
+title: Sentixlens Dashboard
+emoji: 👁️
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: 1.35.0
+app_file: app.py
+pinned: false
+---
+
+# 👁️ SentixLens: Deep Sentiment Intelligence System
+An advanced Aspect-Based Sentiment Analysis system built with Streamlit.
