@@ -1,0 +1,6 @@
+tiktoken
+torch
+transformers
+tf-keras
+protobuf
+streamlit
