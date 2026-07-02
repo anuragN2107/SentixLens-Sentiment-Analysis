@@ -1,4 +1,4 @@
-tiktoken
+sentencepiece
 torch
 transformers
 tf-keras
